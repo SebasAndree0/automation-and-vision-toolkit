@@ -1,0 +1,16 @@
+{
+  "save_to_fixed_dir": true,
+  "fixed_output_dir": "./outputs",
+  "ffmpeg_path": "",
+  "profiles": [
+    {
+      "key": "camera_a",
+      "name": "Camera A",
+      "yaml_path": "./tools/masked-video-detection/examples/config.example.yaml",
+      "model_path": "./weights/model.pt",
+      "default_video": "./videos/input.mp4",
+      "classes": ["person", "cart", "basket", "bag"],
+      "thresholds": { "person": 0.6, "cart": 0.6, "basket": 0.6, "bag": 0.6 }
+    }
+  ]
+}

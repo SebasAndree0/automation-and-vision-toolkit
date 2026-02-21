@@ -1,0 +1,14 @@
+FishEye:
+  Angle: 0
+  CropSize:
+    Left: 0
+    Right: 0
+    Top: 0
+    Bottom: 0
+
+Track:
+  Recinto:
+    - [100, 200]
+    - [500, 200]
+    - [600, 600]
+    - [120, 650]

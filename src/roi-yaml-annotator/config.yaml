@@ -1,0 +1,13 @@
+polygons:
+  Entrance 1:
+    pts: [[100,200],[300,200],[320,420],[120,430]]
+    color: Celeste
+rectangles:
+  rect_1:
+    coords: [50,50,200,200]
+    color: Rojo
+circles:
+  circle_1:
+    center: [400,300]
+    radius: 80
+    color: Verde
